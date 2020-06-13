@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[46],{177:function(e){e.exports=JSON.parse('{"docsSidebars":{"someSidebar":[{"type":"category","label":"Web","items":[{"type":"link","label":"Powered by MDX","href":"/rosh/docs/mdx"}]}]},"permalinkToSidebar":{"/rosh/docs/mdx":"someSidebar"},"isHomePage":true,"homePagePath":"/rosh/docs/doc1"}')}}]);
