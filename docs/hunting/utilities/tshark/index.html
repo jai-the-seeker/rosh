@@ -5,16 +5,16 @@
 <meta name="viewport" content="width=device-width">
 <meta name="generator" content="Docusaurus v2.0.0-alpha.56">
 <title data-react-helmet="true">tshark | Musings</title><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"><meta data-react-helmet="true" property="og:title" content="tshark | Musings"><meta data-react-helmet="true" name="description" content="Basic Commands"><meta data-react-helmet="true" property="og:description" content="Basic Commands"><meta data-react-helmet="true" property="og:url" content="https://jai-the-seeker.github.io/rosh/docs/hunting/utilities/tshark"><link data-react-helmet="true" rel="shortcut icon" href="/rosh/img/symbol.png"><link data-react-helmet="true" rel="canonical" href="https://jai-the-seeker.github.io/rosh/docs/hunting/utilities/tshark"><link rel="stylesheet" href="/rosh/styles.cadbe1e8.css">
-<link rel="preload" href="/rosh/styles.732cfda7.js" as="script">
-<link rel="preload" href="/rosh/runtime~main.6a207153.js" as="script">
-<link rel="preload" href="/rosh/main.331acb28.js" as="script">
-<link rel="preload" href="/rosh/1.8a5062f9.js" as="script">
-<link rel="preload" href="/rosh/2.2de74e1c.js" as="script">
-<link rel="preload" href="/rosh/3.98b09a97.js" as="script">
-<link rel="preload" href="/rosh/1be78505.81b77194.js" as="script">
-<link rel="preload" href="/rosh/44.f4576be6.js" as="script">
-<link rel="preload" href="/rosh/5908942f.232a804b.js" as="script">
-<link rel="preload" href="/rosh/6ec0c580.dc91153e.js" as="script">
+<link rel="preload" href="/rosh/styles.ad72624d.js" as="script">
+<link rel="preload" href="/rosh/runtime~main.c9b96163.js" as="script">
+<link rel="preload" href="/rosh/main.acb55b28.js" as="script">
+<link rel="preload" href="/rosh/1.000c7737.js" as="script">
+<link rel="preload" href="/rosh/2.a9bf4aee.js" as="script">
+<link rel="preload" href="/rosh/3.d14a8f5a.js" as="script">
+<link rel="preload" href="/rosh/1be78505.6bd3b745.js" as="script">
+<link rel="preload" href="/rosh/45.e7643db0.js" as="script">
+<link rel="preload" href="/rosh/5908942f.486662ad.js" as="script">
+<link rel="preload" href="/rosh/6ec0c580.53eae06b.js" as="script">
 </head>
 <body>
 <script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=window.matchMedia("(prefers-color-scheme: dark)"),n=function(){var t=null;try{t=localStorage.getItem("theme")}catch(t){}return t}();null!==n?t(n):e.matches&&t("dark")}()</script><div id="__docusaurus">
@@ -37,15 +37,15 @@ tshark -r HTTP_traffic.pcap -Y &#x27;ip.src==192.168.252.128 &amp;&amp; ip.dst==
 tshark -r WiFi_traffic.pcap -Y &#x27;eapol&#x27;
 </code></pre><h1 id="statistics">Statistics</h1><p><code>-z io,phs[,filter]</code></p><p>Create Protocol Hierarchy Statistics listing both number of packets and bytes. If no filter is specified the statistics will be calculated for all packets. If a filter is specified statistics will only be calculated for those packets that match the filter.</p><pre><code>tshark -r HTTP_traffic.pcap -z io,phs -q
 </code></pre><p>Refs:</p><ul><li><a href="https://www.wireshark.org/docs/man-pages/tshark.html">https://www.wireshark.org/docs/man-pages/tshark.html</a></li></ul></div></article><div class="margin-vert--lg"><nav class="pagination-nav"><div class="pagination-nav__item"><a class="pagination-nav__link" href="/rosh/docs/hunting/utilities/ssh"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">« ssh</div></a></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/rosh/docs/hunting/web/sql_injection"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">SQL Injection »</div></a></div></nav></div></div></div><div class="col col--3"><div class="tableOfContents_TbNY"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#wifi-filters" class="table-of-contents__link">WiFi Filters</a></li></ul></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container"><div class="row footer__links"><div class="col footer__col"><h4 class="footer__title">Videos</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item">Youtube</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Community</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item">Github</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Social Media</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item">Twitter</a></li></ul></div></div><div class="text--center"><div>Copyright © 2020 jai-the-seeker.</div></div></div></footer></div>
-<script src="/rosh/styles.732cfda7.js"></script>
-<script src="/rosh/runtime~main.6a207153.js"></script>
-<script src="/rosh/main.331acb28.js"></script>
-<script src="/rosh/1.8a5062f9.js"></script>
-<script src="/rosh/2.2de74e1c.js"></script>
-<script src="/rosh/3.98b09a97.js"></script>
-<script src="/rosh/1be78505.81b77194.js"></script>
-<script src="/rosh/44.f4576be6.js"></script>
-<script src="/rosh/5908942f.232a804b.js"></script>
-<script src="/rosh/6ec0c580.dc91153e.js"></script>
+<script src="/rosh/styles.ad72624d.js"></script>
+<script src="/rosh/runtime~main.c9b96163.js"></script>
+<script src="/rosh/main.acb55b28.js"></script>
+<script src="/rosh/1.000c7737.js"></script>
+<script src="/rosh/2.a9bf4aee.js"></script>
+<script src="/rosh/3.d14a8f5a.js"></script>
+<script src="/rosh/1be78505.6bd3b745.js"></script>
+<script src="/rosh/45.e7643db0.js"></script>
+<script src="/rosh/5908942f.486662ad.js"></script>
+<script src="/rosh/6ec0c580.53eae06b.js"></script>
 </body>
 </html>

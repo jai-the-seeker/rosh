@@ -5,16 +5,16 @@
 <meta name="viewport" content="width=device-width">
 <meta name="generator" content="Docusaurus v2.0.0-alpha.56">
 <title data-react-helmet="true">Bash Scripts | Musings</title><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"><meta data-react-helmet="true" property="og:title" content="Bash Scripts | Musings"><meta data-react-helmet="true" name="description" content="* Bash"><meta data-react-helmet="true" property="og:description" content="* Bash"><meta data-react-helmet="true" property="og:url" content="https://jai-the-seeker.github.io/rosh/docs/hunting/scripts/bash_scripts"><link data-react-helmet="true" rel="shortcut icon" href="/rosh/img/symbol.png"><link data-react-helmet="true" rel="canonical" href="https://jai-the-seeker.github.io/rosh/docs/hunting/scripts/bash_scripts"><link rel="stylesheet" href="/rosh/styles.cadbe1e8.css">
-<link rel="preload" href="/rosh/styles.732cfda7.js" as="script">
-<link rel="preload" href="/rosh/runtime~main.6a207153.js" as="script">
-<link rel="preload" href="/rosh/main.331acb28.js" as="script">
-<link rel="preload" href="/rosh/1.8a5062f9.js" as="script">
-<link rel="preload" href="/rosh/2.2de74e1c.js" as="script">
-<link rel="preload" href="/rosh/3.98b09a97.js" as="script">
-<link rel="preload" href="/rosh/1be78505.81b77194.js" as="script">
-<link rel="preload" href="/rosh/44.f4576be6.js" as="script">
-<link rel="preload" href="/rosh/5908942f.232a804b.js" as="script">
-<link rel="preload" href="/rosh/bf0d8ea2.463f15f2.js" as="script">
+<link rel="preload" href="/rosh/styles.ad72624d.js" as="script">
+<link rel="preload" href="/rosh/runtime~main.c9b96163.js" as="script">
+<link rel="preload" href="/rosh/main.acb55b28.js" as="script">
+<link rel="preload" href="/rosh/1.000c7737.js" as="script">
+<link rel="preload" href="/rosh/2.a9bf4aee.js" as="script">
+<link rel="preload" href="/rosh/3.d14a8f5a.js" as="script">
+<link rel="preload" href="/rosh/1be78505.6bd3b745.js" as="script">
+<link rel="preload" href="/rosh/45.e7643db0.js" as="script">
+<link rel="preload" href="/rosh/5908942f.486662ad.js" as="script">
+<link rel="preload" href="/rosh/bf0d8ea2.5af00208.js" as="script">
 </head>
 <body>
 <script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=window.matchMedia("(prefers-color-scheme: dark)"),n=function(){var t=null;try{t=localStorage.getItem("theme")}catch(t){}return t}();null!==n?t(n):e.matches&&t("dark")}()</script><div id="__docusaurus">
@@ -242,15 +242,15 @@ do
   echo &quot;$line&quot;
 done &lt; &quot;$input&quot;
 </code></pre></div></article><div class="margin-vert--lg"><nav class="pagination-nav"><div class="pagination-nav__item"><a class="pagination-nav__link" href="/rosh/docs/hunting/network_recon/SMTP"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">« SMTP</div></a></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/rosh/docs/hunting/scripts/python_scripts"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Python Scripts »</div></a></div></nav></div></div></div><div class="col col--3"><div class="tableOfContents_TbNY"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#sed" class="table-of-contents__link">Sed</a></li><li><a href="#awk" class="table-of-contents__link">awk</a></li><li><a href="#authorization-token" class="table-of-contents__link">Authorization Token</a></li><li><a href="#directory-listing" class="table-of-contents__link">Directory Listing</a></li><li><a href="#proxy-authentication-dictionary-attk" class="table-of-contents__link">proxy authentication dictionary attk</a></li><li><a href="#find" class="table-of-contents__link"><code>find</code></a></li><li><a href="#locate" class="table-of-contents__link"><code>locate</code></a></li><li><a href="#netstat" class="table-of-contents__link"><code>netstat</code></a></li><li><a href="#ps" class="table-of-contents__link"><code>ps</code></a></li><li><a href="#empty-file" class="table-of-contents__link">empty file</a></li><li><a href="#basic-expressions" class="table-of-contents__link">Basic Expressions</a></li><li><a href="#if-else" class="table-of-contents__link">If-else</a></li><li><a href="#menu-select" class="table-of-contents__link">Menu select</a></li><li><a href="#test-expressions" class="table-of-contents__link"><code>test</code> Expressions</a><ul><li><a href="#use-of-test-expression-in-if-else" class="table-of-contents__link">Use of <code>test</code> expression in if-else</a></li></ul></li><li><a href="#for-loops" class="table-of-contents__link">for loops</a></li><li><a href="#for-in-loops" class="table-of-contents__link">for-in-loops</a></li><li><a href="#functions" class="table-of-contents__link">Functions</a><ul><li><a href="#arguments" class="table-of-contents__link">Arguments</a></li><li><a href="#local-variables" class="table-of-contents__link">Local Variables</a></li><li><a href="#exit-codes" class="table-of-contents__link">Exit codes</a></li></ul></li><li><a href="#read-file-line-by-line" class="table-of-contents__link">Read file line by line</a></li></ul></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container"><div class="row footer__links"><div class="col footer__col"><h4 class="footer__title">Videos</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item">Youtube</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Community</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item">Github</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Social Media</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item">Twitter</a></li></ul></div></div><div class="text--center"><div>Copyright © 2020 jai-the-seeker.</div></div></div></footer></div>
-<script src="/rosh/styles.732cfda7.js"></script>
-<script src="/rosh/runtime~main.6a207153.js"></script>
-<script src="/rosh/main.331acb28.js"></script>
-<script src="/rosh/1.8a5062f9.js"></script>
-<script src="/rosh/2.2de74e1c.js"></script>
-<script src="/rosh/3.98b09a97.js"></script>
-<script src="/rosh/1be78505.81b77194.js"></script>
-<script src="/rosh/44.f4576be6.js"></script>
-<script src="/rosh/5908942f.232a804b.js"></script>
-<script src="/rosh/bf0d8ea2.463f15f2.js"></script>
+<script src="/rosh/styles.ad72624d.js"></script>
+<script src="/rosh/runtime~main.c9b96163.js"></script>
+<script src="/rosh/main.acb55b28.js"></script>
+<script src="/rosh/1.000c7737.js"></script>
+<script src="/rosh/2.a9bf4aee.js"></script>
+<script src="/rosh/3.d14a8f5a.js"></script>
+<script src="/rosh/1be78505.6bd3b745.js"></script>
+<script src="/rosh/45.e7643db0.js"></script>
+<script src="/rosh/5908942f.486662ad.js"></script>
+<script src="/rosh/bf0d8ea2.5af00208.js"></script>
 </body>
 </html>
