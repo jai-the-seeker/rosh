@@ -5,14 +5,14 @@
 <meta name="viewport" content="width=device-width">
 <meta name="generator" content="Docusaurus v2.0.0-alpha.56">
 <title data-react-helmet="true">Spinning up Docker Infrastructure for Apache-Php-MySql | Musings</title><meta data-react-helmet="true" property="og:title" content="Spinning up Docker Infrastructure for Apache-Php-MySql | Musings"><meta data-react-helmet="true" name="description" content="Spinning up docker infrastructure for apache-php-mysql can have its own queer requirements. In this blog we will see, how we can get going and setting it up."><meta data-react-helmet="true" property="og:description" content="Spinning up docker infrastructure for apache-php-mysql can have its own queer requirements. In this blog we will see, how we can get going and setting it up."><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"><link data-react-helmet="true" rel="shortcut icon" href="/rosh/img/symbol.png"><link rel="stylesheet" href="/rosh/styles.cadbe1e8.css">
-<link rel="preload" href="/rosh/styles.c07c5bd3.js" as="script">
-<link rel="preload" href="/rosh/runtime~main.86b9833e.js" as="script">
-<link rel="preload" href="/rosh/main.f75bdfbd.js" as="script">
-<link rel="preload" href="/rosh/1.f9fc5152.js" as="script">
-<link rel="preload" href="/rosh/2.c4e246a7.js" as="script">
-<link rel="preload" href="/rosh/3.4adfd017.js" as="script">
-<link rel="preload" href="/rosh/ccc49370.228984b0.js" as="script">
-<link rel="preload" href="/rosh/c3ec2e44.128c864e.js" as="script">
+<link rel="preload" href="/rosh/styles.732cfda7.js" as="script">
+<link rel="preload" href="/rosh/runtime~main.1dafc50a.js" as="script">
+<link rel="preload" href="/rosh/main.331acb28.js" as="script">
+<link rel="preload" href="/rosh/1.8a5062f9.js" as="script">
+<link rel="preload" href="/rosh/2.2de74e1c.js" as="script">
+<link rel="preload" href="/rosh/3.98b09a97.js" as="script">
+<link rel="preload" href="/rosh/ccc49370.79daac85.js" as="script">
+<link rel="preload" href="/rosh/c3ec2e44.a3593e7e.js" as="script">
 </head>
 <body>
 <script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=window.matchMedia("(prefers-color-scheme: dark)"),n=function(){var t=null;try{t=localStorage.getItem("theme")}catch(t){}return t}();null!==n?t(n):e.matches&&t("dark")}()</script><div id="__docusaurus">
@@ -138,14 +138,14 @@ catch(PDOException $e)
     }
 ?&gt;
 </code></pre><p>Now, lets check the connection with database by running <code>localhost:5000\conn.php</code></p><h2 id="peep-inside-my-running-php-apache-instance">Peep inside my running php-apache instance</h2><p>Let&#x27;s see whats happening inside my running docker instance</p><pre><code>$ docker exec -it app-web-php74 bash
-</code></pre></section><footer class="row margin-vert--lg"><div class="col"><strong>Tags:</strong><a class="margin-horiz--sm" href="/rosh/blog/tags/docker">docker</a><a class="margin-horiz--sm" href="/rosh/blog/tags/infrastructure">infrastructure</a></div></footer></article><div></div><div class="margin-vert--xl"><nav class="pagination-nav"><div class="pagination-nav__item"></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/rosh/blog/welcome"><div class="pagination-nav__sublabel">Next Post</div><div class="pagination-nav__label">Welcome »</div></a></div></nav></div></div></div></div></div><footer class="footer footer--dark"><div class="container"><div class="row footer__links"><div class="col footer__col"><h4 class="footer__title">Videos</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item">Youtube</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Community</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item">Github</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Social Media</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item">Twitter</a></li></ul></div></div><div class="text--center"><div>Copyright © 2020 jai-the-seeker.</div></div></div></footer></div>
-<script src="/rosh/styles.c07c5bd3.js"></script>
-<script src="/rosh/runtime~main.86b9833e.js"></script>
-<script src="/rosh/main.f75bdfbd.js"></script>
-<script src="/rosh/1.f9fc5152.js"></script>
-<script src="/rosh/2.c4e246a7.js"></script>
-<script src="/rosh/3.4adfd017.js"></script>
-<script src="/rosh/ccc49370.228984b0.js"></script>
-<script src="/rosh/c3ec2e44.128c864e.js"></script>
+</code></pre></section><footer class="row margin-vert--lg"><div class="col"><strong>Tags:</strong><a class="margin-horiz--sm" href="/rosh/blog/tags/docker">docker</a><a class="margin-horiz--sm" href="/rosh/blog/tags/infrastructure">infrastructure</a></div></footer></article><div></div></div></div></div></div><footer class="footer footer--dark"><div class="container"><div class="row footer__links"><div class="col footer__col"><h4 class="footer__title">Videos</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item">Youtube</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Community</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item">Github</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Social Media</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item">Twitter</a></li></ul></div></div><div class="text--center"><div>Copyright © 2020 jai-the-seeker.</div></div></div></footer></div>
+<script src="/rosh/styles.732cfda7.js"></script>
+<script src="/rosh/runtime~main.1dafc50a.js"></script>
+<script src="/rosh/main.331acb28.js"></script>
+<script src="/rosh/1.8a5062f9.js"></script>
+<script src="/rosh/2.2de74e1c.js"></script>
+<script src="/rosh/3.98b09a97.js"></script>
+<script src="/rosh/ccc49370.79daac85.js"></script>
+<script src="/rosh/c3ec2e44.a3593e7e.js"></script>
 </body>
 </html>

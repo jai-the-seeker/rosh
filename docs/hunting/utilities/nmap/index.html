@@ -5,16 +5,16 @@
 <meta name="viewport" content="width=device-width">
 <meta name="generator" content="Docusaurus v2.0.0-alpha.56">
 <title data-react-helmet="true">nmap | Musings</title><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"><meta data-react-helmet="true" property="og:title" content="nmap | Musings"><meta data-react-helmet="true" name="description" content="* Scans"><meta data-react-helmet="true" property="og:description" content="* Scans"><meta data-react-helmet="true" property="og:url" content="https://jai-the-seeker.github.io/rosh/docs/hunting/utilities/nmap"><link data-react-helmet="true" rel="shortcut icon" href="/rosh/img/symbol.png"><link data-react-helmet="true" rel="canonical" href="https://jai-the-seeker.github.io/rosh/docs/hunting/utilities/nmap"><link rel="stylesheet" href="/rosh/styles.cadbe1e8.css">
-<link rel="preload" href="/rosh/styles.c07c5bd3.js" as="script">
-<link rel="preload" href="/rosh/runtime~main.86b9833e.js" as="script">
-<link rel="preload" href="/rosh/main.f75bdfbd.js" as="script">
-<link rel="preload" href="/rosh/1.f9fc5152.js" as="script">
-<link rel="preload" href="/rosh/2.c4e246a7.js" as="script">
-<link rel="preload" href="/rosh/3.4adfd017.js" as="script">
-<link rel="preload" href="/rosh/1be78505.ebea1a84.js" as="script">
-<link rel="preload" href="/rosh/54.1e58d6bb.js" as="script">
-<link rel="preload" href="/rosh/5908942f.578dff2c.js" as="script">
-<link rel="preload" href="/rosh/fe7ef0a0.3f2e840a.js" as="script">
+<link rel="preload" href="/rosh/styles.732cfda7.js" as="script">
+<link rel="preload" href="/rosh/runtime~main.1dafc50a.js" as="script">
+<link rel="preload" href="/rosh/main.331acb28.js" as="script">
+<link rel="preload" href="/rosh/1.8a5062f9.js" as="script">
+<link rel="preload" href="/rosh/2.2de74e1c.js" as="script">
+<link rel="preload" href="/rosh/3.98b09a97.js" as="script">
+<link rel="preload" href="/rosh/1be78505.81b77194.js" as="script">
+<link rel="preload" href="/rosh/44.f4576be6.js" as="script">
+<link rel="preload" href="/rosh/5908942f.7a243fa6.js" as="script">
+<link rel="preload" href="/rosh/fe7ef0a0.299103d4.js" as="script">
 </head>
 <body>
 <script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=window.matchMedia("(prefers-color-scheme: dark)"),n=function(){var t=null;try{t=localStorage.getItem("theme")}catch(t){}return t}();null!==n?t(n):e.matches&&t("dark")}()</script><div id="__docusaurus">
@@ -30,15 +30,15 @@ nmap -A 192.165.34.3
 </code></pre><h2 id="discovery">discovery</h2><h3 id="banner">banner</h3><pre><code class="language-sh"># nmap -sV --script=banner &lt;target&gt;
 nmap -sV --script=banner -p- 192.162.110.3
 </code></pre></div></article><div class="margin-vert--lg"><nav class="pagination-nav"><div class="pagination-nav__item"><a class="pagination-nav__link" href="/rosh/docs/hunting/utilities/nc"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">« nc</div></a></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/rosh/docs/hunting/utilities/ssh"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">ssh »</div></a></div></nav></div></div></div><div class="col col--3"><div class="tableOfContents_TbNY"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#basic-scans" class="table-of-contents__link">basic scans</a></li><li><a href="#brute" class="table-of-contents__link">brute</a><ul><li><a href="#http-proxy-brute" class="table-of-contents__link">http-proxy-brute</a></li></ul></li><li><a href="#discovery" class="table-of-contents__link">discovery</a><ul><li><a href="#banner" class="table-of-contents__link">banner</a></li></ul></li></ul></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container"><div class="row footer__links"><div class="col footer__col"><h4 class="footer__title">Videos</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item">Youtube</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Community</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item">Github</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Social Media</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item">Twitter</a></li></ul></div></div><div class="text--center"><div>Copyright © 2020 jai-the-seeker.</div></div></div></footer></div>
-<script src="/rosh/styles.c07c5bd3.js"></script>
-<script src="/rosh/runtime~main.86b9833e.js"></script>
-<script src="/rosh/main.f75bdfbd.js"></script>
-<script src="/rosh/1.f9fc5152.js"></script>
-<script src="/rosh/2.c4e246a7.js"></script>
-<script src="/rosh/3.4adfd017.js"></script>
-<script src="/rosh/1be78505.ebea1a84.js"></script>
-<script src="/rosh/54.1e58d6bb.js"></script>
-<script src="/rosh/5908942f.578dff2c.js"></script>
-<script src="/rosh/fe7ef0a0.3f2e840a.js"></script>
+<script src="/rosh/styles.732cfda7.js"></script>
+<script src="/rosh/runtime~main.1dafc50a.js"></script>
+<script src="/rosh/main.331acb28.js"></script>
+<script src="/rosh/1.8a5062f9.js"></script>
+<script src="/rosh/2.2de74e1c.js"></script>
+<script src="/rosh/3.98b09a97.js"></script>
+<script src="/rosh/1be78505.81b77194.js"></script>
+<script src="/rosh/44.f4576be6.js"></script>
+<script src="/rosh/5908942f.7a243fa6.js"></script>
+<script src="/rosh/fe7ef0a0.299103d4.js"></script>
 </body>
 </html>
