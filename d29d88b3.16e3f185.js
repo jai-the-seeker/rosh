@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[35],{132:function(r){r.exports=JSON.parse('{"docker":{"allTagsPath":"/rosh/blog/tags","slug":"docker","name":"docker","count":1,"permalink":"/rosh/blog/tags/docker"},"infrastructure":{"allTagsPath":"/rosh/blog/tags","slug":"infrastructure","name":"infrastructure","count":1,"permalink":"/rosh/blog/tags/infrastructure"}}')}}]);
